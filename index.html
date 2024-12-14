@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- fontawome css -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- main file css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+
+    <!-- google font links -->
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pacifico&family=Righteous&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <main class="py-5 vh-100">
+
+        <div class="container text-center box-edit py-5">
+            <h1>Smart Login System</h1>
+            <input type="email" placeholder="Enter your email" class="form-control my-3 " id="btn-email">
+            <input type="password" placeholder="Enter your password" class="form-control my-3" id="btn-Password">
+            <button class="btn btn-outline-info w-100 my-3 " onclick="addData();">Login</button>
+
+            <p class="text-danger d-none"id="demo" >
+                incorrect email or password
+
+
+            </p>
+            <p class="text-white">Don’t have an account?
+                <a class="text-white" href="./sing.html">Sign Up</a>
+            </p>
+
+        </div>
+    </main>
+
+
+    <!------------------ Bootstrap js ----------------------->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!------------------------ js file----------------------->
+    <script src="./js/main.js"></script>
+    
+
+</body>
+
+</html>

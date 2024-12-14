@@ -1,0 +1,25 @@
+
+
+
+
+body{
+    background-color: #24353F;
+
+}
+.nav-edit{
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    
+
+}
+
+
+.text-edit{
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    margin-top: 200px;
+    width: 60%;
+    height:150px;
+    color: #17A2B8;
+
+}

@@ -1,0 +1,41 @@
+main {
+    background-color: #24353F;
+
+}
+
+
+
+.box-edit {
+    width: 60%;
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    padding: 50px;
+
+}
+
+h1 {
+    color: #17A2B8;
+    font-family: "Titillium", sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+    text-decoration: none solid rgb(23, 162, 184);
+
+}
+
+.box-edit input {
+    background-color: #24353F !important;
+    color: #fff !important;
+}
+
+p {
+    font-family: "Titillium ", sans-serif;
+    line-height: 24px;
+    margin: 0px 0px 16px;
+    font-weight: 400;
+    text-decoration: none solid rgb(255, 255, 255);
+
+}
+a {
+    text-decoration: none;
+}
